@@ -1,0 +1,130 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    overflow: hidden;
+    background-color: #13B7FC;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar{
+    float: right;
+    margin-right: 150px;
+    
+}
+li{
+    display: inline-block;
+    padding: 10px 30px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;  
+}
+li a:hover{
+    color: #332AD3; 
+}
+.container{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+h1{
+    margin-top: 100px;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 70px;
+}
+h2{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 50px;
+}
+h3{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 40px;
+}
+p{
+    margin-bottom: 80px;
+    font-size: 25px;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    background-image:linear-gradient(to right, #13B7FC,#A4D3EC);
+    padding: 30px 60px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 30px #13B7FC;
+}
+.flexible{
+    display: flex;
+    margin-bottom:100px;
+
+}
+.left-half{
+   width: 50%;
+   margin-left: 150px;
+ 
+   
+}
+.right-half{
+    width: 50%;
+    margin-right: 150px;
+}
+span{
+    color: #13B7FC;
+}
+#about_us{
+    background-image: url(../img/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team{
+    background-image: url(../img/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+.my_pic{
+    width: 450px;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+.discription{
+    margin-top: 200px;
+}
+.gallery{
+    text-align: center;
+    margin: 0 150px;
+}
+.card{
+    margin: 0 40px;
+    padding: 24px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+   
+}
+.card-team{
+    margin: 0 40px;
+    padding: 24px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px #13B7FC;
+   
+}
+.card-image{
+    width: 400px;
+}
+.card-image-team{
+    width: 400px;
+    border-radius: 20PX;
+}
+#footer{
+    text-align: center;
+    background-color: gray;
+    padding: 20px 0;
+}
+#footer a{
+    text-decoration: none;
+}
