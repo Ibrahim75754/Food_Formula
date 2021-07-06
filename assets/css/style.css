@@ -25,10 +25,6 @@ li a{
 li a:hover{
     color: #332AD3; 
 }
-.container{
-    margin-left: 150px;
-    margin-right: 150px;
-}
 h1{
     margin-top: 100px;
     font-family: 'Otomanopee One', sans-serif;
@@ -97,29 +93,34 @@ span{
     text-align: center;
     margin: 0 150px;
 }
+.third-section{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
 .card{
-    margin: 0 40px;
-    padding: 24px;
-    height: 600px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 40px gray;
-   
+    height: 650px;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px; 
+    box-shadow: 10px 20px 40px gray;
+}
+.card img{
+    width: 100%;
 }
 .card-team{
-    margin: 0 40px;
-    padding: 24px;
-    height: 600px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 40px #13B7FC;
-   
+    height: 650px;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px; 
+    box-shadow: 10px 20px 40px #13B7FC;
+
 }
-.card-image{
-    width: 400px;
+.card-team img{
+    width: 100%;
 }
-.card-image-team{
-    width: 400px;
-    border-radius: 20PX;
-}
+
 #footer{
     text-align: center;
     background-color: gray;
